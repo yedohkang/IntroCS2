@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            Madlibs: Choose Story
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <center>
+            <h1>
+                Madlibs: Choose Story
+            </h1>
+        </center>
+        <form action="madlibs_upload_story.py" method="get">
+            <br>
+            <input type="submit" value="Upload a New Madlibs Story">
+        </form>
+        <br>
+        <hr>
+        <br>
+        <form action="madlibs_user_input_missing_words.py" id="stories_form">
+            <input type="submit" value="Choose">
+        </form>
+        <select name="story" form="stories_form">
+            <option value="madlibs_Hamlet_soliloquy.txt">
+                madlibs_Hamlet_soliloquy.txt
+            </option>
+            <option value="vacation.txt">
+                vacation.txt
+            </option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <footer>
+            <p>
+                <em>
+                    Posted By
+                </em>
+                : Khyber Sen and Yedoh Kang
+            </p>
+            <p>
+                <em>
+                    Contact Information
+                </em>
+                :
+                <a href="mailto:kkysen@gmail.com">
+                    kkysen@gmail.com
+                </a>
+            </p>
+            <p>
+                <em>
+                    Last Updated
+                </em>
+                : 2016-05-10
+            </p>
+        </footer>
+    </body>
+</html>

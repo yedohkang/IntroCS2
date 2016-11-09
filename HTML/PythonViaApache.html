@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Python Via Apache</title>
+</head>
+<body>
+
+<center>
+<font face="courier">
+
+<table border="1">
+<caption> <b> STEPS TO PRODUCE TEXT IN A BROWSER FROM A PYTHON FILE </b> </caption>
+  <tbody>
+    <tr>
+      <th> STEP # </th>
+	  <th> STEP </th>
+    </tr>
+    <tr>
+		<td> 0 </td>
+		<td> Create a python file (.py) </td>
+	</tr>
+	<tr>
+		<td> 1 </td>
+		<td> View its read, write, execute rights using ls -1 </td>
+	</tr>
+	<tr>
+		<td> 2 </td>
+		<td> Run the python file </td>
+	</tr>
+	<tr>
+		<td> 3 </td>
+		<td> Grant executing rights using chmod +x filename </td>
+	</tr>
+	<tr>
+		<td> 4 </td>
+		<td> To check and view, use ls -1 </td>
+	</tr>
+	<tr>
+		<td> 5 </td>
+		<td> Run the file as a command (/pathtofile/filename) </td>
+	</tr>
+	<tr>
+		<td> 6 </td>
+		<td> Insert shbang and the path to python by using which python to figure out the path (ex. #! /usr/bin/python) </td>
+	</tr>
+	<tr>
+		<td> 7 </td>
+		<td> To check, run the file as a command using its /pathtofile/filename </td>
+	</tr>
+	<tr>
+		<td> 8 </td>
+		<td> Place the python file into your public html folder </td>
+	</tr>
+	<tr>
+		<td> 9 </td>
+		<td> Insert print 'content-type: text/html\n' after the shbang+usrbin but before the actual content of the file </td>
+	</tr>
+	<tr>
+		<td> 10 </td>
+		<td> Open the file in your browser to view results! </td>
+	</tr>
+  </tbody>
+</table>
+
+<br>
+<br>
+<table border="1">
+	<caption> <b> MISSTEPS </b> </caption>
+	<tbody>
+		<tr>
+			<th> # </th>
+			<th> ERROR MESSAGE OR OTHER SYMPTOM </th>
+			<th> PROBLEM </th>
+			<th> FIX </th>
+		</tr>
+		<tr>
+			<td> 0 </td>
+			<td> filename: Permission denied when you try to execute filename as a command </td>
+			<td> user lacks permission to execute the file, as shown by ls -l </td>
+			<td> chmod +x filename </td>
+		</tr>
+	</tbody>
+</table>
+
+	
+ 
+</center>
+</font>
+
+</body>
+</html>
